@@ -1,0 +1,17 @@
+{
+  "name": "layerflow-poc",
+  "version": "0.1.0",
+  "description": "Proof of concept for UI screenshot layer detection",
+  "type": "module",
+  "scripts": {
+    "detect": "node detect.js",
+    "detect-url": "node detect-url.js",
+    "preview": "cd renderer && npm run dev",
+    "render": "cd renderer && npm run render"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "puppeteer": "^23.0.0"
+  },
+  "devDependencies": {}
+}

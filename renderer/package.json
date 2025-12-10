@@ -1,0 +1,24 @@
+{
+  "name": "layerflow-renderer",
+  "version": "0.1.0",
+  "description": "3D video renderer for LayerFlow",
+  "type": "module",
+  "scripts": {
+    "dev": "remotion studio",
+    "render": "node render.js"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.252",
+    "@remotion/three": "^4.0.252",
+    "@react-three/fiber": "^8.17.10",
+    "@react-three/drei": "^9.114.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.252",
+    "three": "^0.169.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "typescript": "^5.7.2"
+  }
+}
